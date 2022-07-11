@@ -99,6 +99,7 @@ section {
     grid-column: 2/4;
     grid-row: 3/4;
     background-color: #2b6777;
+    object-fit: contain;
 
     display: flex;
     justify-content: center;
@@ -108,6 +109,9 @@ section {
 .websites-list {
     padding: 1%;
     font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 footer {
@@ -148,7 +152,7 @@ h2 {
 .image-slider {
     height: 50vh;
     width: 50vw;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .link-icon {
