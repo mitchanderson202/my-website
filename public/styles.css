@@ -12,7 +12,7 @@ body {
 .grid-wrapper {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-template-rows: 6vh 60vh 60vh 6vh;
+    grid-template-rows: 6vh 60vh 60vh 60vh 6vh;
 }
 
 .nav-bar-link {
@@ -27,10 +27,6 @@ body {
     text-decoration: none;
     border: 2px solid black;
 }
-
-/* #contact-form {
-    visibility: hidden;
-} */
 
 header {
     grid-column: 1/4;
@@ -114,9 +110,43 @@ section {
     display: block;
 }
 
-footer {
+.form {
     grid-column: 1/4;
     grid-row: 4/5;
+    background-color: #52ab98;
+    display: grid;
+    justify-content: center;
+}
+
+#contact-form {
+    width: 50vw;
+    height: 100%;
+}
+
+
+label, input, textarea {
+    display: block;
+    font-size: 1.5em;
+    width: 100%;
+    border: 0;
+    padding: 1px;
+}
+
+#contact-form {
+    display: block;
+}
+
+#submit-btn {
+    margin-top: 2px;
+    font-size: 1.6em;
+    border: 0;
+    cursor: pointer;
+}
+
+
+footer {
+    grid-column: 1/4;
+    grid-row: 5/6;
     display: flex;
     justify-content: space-between;
     background-color: #f2f2f2;
@@ -190,9 +220,23 @@ ul {
     #title {
         font-size: 1.4rem;
     }
+
+    #submit-btn {
+        font-size: 1em;
+    }
     
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 1100px) {
+    
+}
 
+@media only screen and (max-height: 900px) {
+    input, label, textarea {
+        font-size: 1rem;
+    }
+
+    #message {
+        height: 100%;
+    }
 }

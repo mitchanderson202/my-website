@@ -27,10 +27,10 @@ window.onload = changeImg();
 document.getElementById("year").innerText = new Date().getFullYear();
 
 // Contact Button
+let contactBtn = document.getElementById("contact-btn");
 
-// let contactBtn = document.getElementById("contact-btn");
-
-// contactBtn.addEventListener("click", function() {
-  
-// })
+contactBtn.addEventListener("click", function() {
+    let input = document.querySelector("input");
+    input.innerText = "";
+})
 
