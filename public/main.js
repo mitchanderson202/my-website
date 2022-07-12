@@ -6,7 +6,6 @@ var time = 2000;
 images[0] = "./images/image0.jpg";
 images[1] = "./images/image1.jpg";
 images[2] = "./images/image2.jpg";
-images[3] = "./images/image3.jpg";
 
 function changeImg(){
   document.slider.src = images[i];
