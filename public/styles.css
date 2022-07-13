@@ -161,19 +161,19 @@ footer {
     overflow: hidden; 
     white-space: nowrap;
     animation: 
-    typing 6s steps(40, end),
+    typing 6s steps(70, end),
     blinking .75s step-end; 
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 
 h2 {
     font-size: 2em;
 }
   
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
 
 .about-me {
     font-size: 1.5em;
@@ -204,8 +204,8 @@ ul {
     }
 
     .image-slider {
-        height: 50vw;
-        width: 50vw;
+        height: 60vw;
+        width: 60vw;
         object-fit: scale-down;
     }
 
