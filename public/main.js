@@ -1,7 +1,7 @@
 // Photo Slider
 let i = 0;
 let images = [];
-let time = 2000;
+let time = 4000;
 let link = []
 
 let imageLink = document.getElementById("imageLink")
